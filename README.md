@@ -11,20 +11,4 @@ Este protótipo é um primeiro fruto de um projeto de um sistema de dosagem auto
 
 O estabelicimento terá acesso aos clientes através de uma aplicação em QT em comunicação serial com o NODE MCU 8266. Já o cliente por sua vez, terá acesso a temperatura do Chopp, bem como a solicitação do garçom junto a mesa e o andamento desta solicitação, A forma de pagamento e o valor gasto através de uma página WEB que poderá ser acessada com qualquer dispositivo móvel com acesso a internet através de um QR Code.
 
-![](figuras/1.png)
 
-É possível visualizar uma tela de estatísticas onde teremos um resumo que informa ao usuário a quantidade total de itens do estoque, bem como a menor quantidade e também a maior. Na figura abaixo, é possível ver esta tela.
-
-![](figuras/2.PNG)
-
-A utilização do formulário é bastante intuitiva. Observe na figura abaixo os diversos itens do formulário e a ação de sua interação com o usuário.
-
-![](figuras/2N.PNG)
-
-![](figuras/4.PNG)
-
-## Menu Arquivo
-
-Neste Menu podemos acessar as opções de Salvar ou Carregar uma lista de Itens. O formato do arquivo será .txt.
-
-## Tela Inserir
