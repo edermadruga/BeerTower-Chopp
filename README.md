@@ -5,15 +5,15 @@
 
 ![](figuras/chopeira.png)
 
-# Introdução
+# 1 Introdução
 
 Este protótipo é um primeiro fruto de um projeto de um sistema de dosagem automática a ser implementado em torres de Chopp, onde o usuário através de um push button pode dosar uma quantidade exata do Chopp em seu copo. Além dessa função básica, será implementado outras funções como a informação do nível mínimo da chopeira, bem como a solicitação da substituição da mesma por parte do usuário. Para tanto utilizaremos como controlador o ESP8266, push button, LED's, sensor de temperatura DS18B20 e uma válvula de controle de elaboração própria, contendo um servomotor acoplado a uma válvula manual através de um suporte.
 
 O estabelicimento terá acesso aos clientes através de uma aplicação em QT em comunicação serial com o NODE MCU 8266. Já o cliente por sua vez, terá acesso a temperatura do Chopp, bem como a solicitação do garçom junto a mesa e o andamento desta solicitação, A forma de pagamento e o valor gasto através de uma página WEB que poderá ser acessada com qualquer dispositivo móvel com acesso a internet através de um QR Code.
 
-# Manual do Usuário
+# 2 Manual do Usuário
 
-## Interface do Proprietário (QT)
+## 2.1 Interface do Proprietário (QT)
 
 Primeiramente faz-se necessário setar as configurações de comunicação do software desenvolvido no QT através da aba comunicação.
 
@@ -36,7 +36,7 @@ Quando a mensagem de solicitação for reconhecida pelo estabelecimento, outro L
 
 Isto também poderá ser observado através do site próprio da chopeira.
 
-## Interface do Usuário (Botões físicos e Web)
+## 2.2 Interface do Usuário (Botões físicos e Web)
 
 O usuário  terá duas formas de interface com a chopeira e com o estabelecimento. 
 
@@ -67,4 +67,15 @@ A interface também possui um botão para solicitação ao estabelecimento, que 
 Também via Interface WEB é possível encerrar a conta do cliente.
 
 (IMAGEM WEB ENCERRAR CONTA)
+
+# 3 Do outro Lado do Protótipo
+
+O desenvolvimento lógico do protótipo BeerTower-Chopp contém três segmentos básicos:
+
+- O NodeMCU 8266: Que fará o controle dos dispositivos eletrônicos. Na figura abaixo podemos ver a conexão destes dispositivos utilizados no protótipo.
+
+- A Interface do Estabelecimento: Desenvolvido através do QT Creator.
+
+- A Interface do Cliente: Página WEB que poderá ser acessada pelo usuário.
+
 
