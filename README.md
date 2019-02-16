@@ -1,10 +1,11 @@
 # BeerTower-Chopp
-Repositório de arquivos referente ao projeto da disciplina Técnicas de Programação do IFPB, ministrada pelo professor Patric Lacouth
 
 
-# Gerenciador de Estoque
-### Código exemplo da aplicação desenvolvida em [QT](http://www.qt.io) para gerenciar o estoque de uma loja de eletrônica (Arduíno, sensores, etc).
-#### Este código foi desenvolvido por EDER MADRUGA COELHO (20181610028) na disciplina de Técnicas de Programação (2018.2) tendo como base o código Gerenciador de alunos 2018.2 do professor PATRIC LACOUTH.
+#### Este projeto foi desenvolvido por APOLO DE LIMA (20181610009), EDER MADRUGA COELHO (20181610028), EVERTON JÚNIOR DA SILVA ARRUDA (20181610044) e IVIS FERREIRA DE BRITO (20181610013) na disciplina de Técnicas de Programação (2018.2) tendo como base as aulas ministradas pelo professor PATRIC LACOUTH.
+
+![](figuras/1.png)
+
+# Introdução
 
 Este protótipo é um primeiro fruto de um projeto de um sistema de dosagem automática a ser implementado em torres de Chopp, onde o usuário através de um push button pode dosar uma quantidade exata do Chopp em seu copo. Além dessa função básica, será implementado outras funções como a informação do nível mínimo da chopeira, bem como a solicitação da substituição da mesma por parte do usuário. Para tanto utilizaremos como controlador o ESP8266, push button, LED's, sensor de temperatura DS18B20 e uma válvula de controle de elaboração própria, contendo um servomotor acoplado a uma válvula manual através de um suporte.
 
