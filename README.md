@@ -74,6 +74,8 @@ O desenvolvimento lógico do protótipo BeerTower-Chopp contém três segmentos 
 
 - O NodeMCU 8266: Que fará o controle dos dispositivos eletrônicos. Na figura abaixo podemos ver a conexão destes dispositivos utilizados no protótipo.
 
+![](figuras/conexaoeletronica.PNG)
+
 - A Interface do Estabelecimento: Desenvolvido através do QT Creator.
 
 - A Interface do Cliente: Página WEB que poderá ser acessada pelo usuário.
