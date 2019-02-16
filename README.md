@@ -50,7 +50,7 @@ A primeira, através da interface física localizada na própria chopeira que co
 
 Na Imagem abaixo, podemos ver um exemplo a ser implementada dessa interface física.
 
-![](figuras/interfacefisica.png)
+![](figuras/interfacefisica.PNG)
 
 A outra Interface é utilizando a interface WEB que pode ser acessada através de qualquer dispositivo que possua acesso a Internet (Própria do estabelecimento ou 3G)
 
