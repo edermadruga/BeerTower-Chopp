@@ -15,6 +15,10 @@ O estabelicimento terá acesso aos clientes através de uma aplicação em QT em
 
 ## 2.1 Interface do Proprietário (QT)
 
+A Interface do proprietário do estabelecimento é composto de três abas conforme mostra a figura a seguir:
+
+![](figuras/abas.PNG)
+
 Primeiramente faz-se necessário setar as configurações de comunicação do software desenvolvido no QT através da aba comunicação.
 
 (PRECISO DE UMA IMAGEM DA ABA COMUNICAÇÃO)
