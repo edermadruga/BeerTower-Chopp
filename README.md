@@ -82,7 +82,7 @@ O desenvolvimento lógico do protótipo BeerTower-Chopp contém três segmentos 
 
 ## 3.1 Comunicação entre os Dispositivos - Protocolo
 
-![](figuras/conexaoeletronica.PNG)
+![](figuras/infograma.PNG)
 
 
 A comunicação entre os diversos componentes do projeto está baseada no protocolo Json.
@@ -94,5 +94,6 @@ Faz sentido que um formato de dados que seja intercambiável com linguagens de p
 
 No JSON, um objeto é um conjunto não ordenado de pares nome / valor. Um objeto começa com {  (chave esquerda) e termina com }  (chave direita) . Cada nome é seguido por :  e o nome / pares de valores estão separados por ,  (vírgula) .
 
+![](figuras/Jason.png)
 
 
