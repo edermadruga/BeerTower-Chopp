@@ -33,27 +33,29 @@ Estando na aba conexão, inicialmente, o status da conexão estará mostrando "D
 
 Para estabelecer uma comunicação com a placa controladora, é necessário escolher a porta de comunicação em que a placa foi conectada.
 
-![](figuras/abas.PNG)
+![](figuras/escolha_porta.PNG)
 
 Depois devemos escolher a velocidade de comunicação, como podemos ver na figura abaixo.
 
-![](figuras/abas.PNG)
+![](figuras/escolha_velocidade.PNG)
 
 Por padrão, a velocidade escolhida deverá ser de 115000.
 
-![](figuras/abas.PNG)
+![](figuras/velocidade_setada.PNG)
 
 Uma vez que os dados de conexão foram estabelecidos, devemos acionar o botão abrir.
 
-![](figuras/abas.PNG)
+![](figuras/botao_abrir.PNG)
 
 Se tudo ocorrer como previsto, o Status da conexão mudará para "Conectado".
 
-![](figuras/abas.PNG)
+![](figuras/status_conec.PNG)
 
-Primeiramente faz-se necessário setar as configurações de comunicação do software desenvolvido no QT através da aba comunicação.
+### Estabelecendo a Mesa do Cliente
 
-(PRECISO DE UMA IMAGEM DA ABA COMUNICAÇÃO)
+Uma vez que a conexão foi estabelecida com sucesso, devemos estabelecer a mesa que está sendo utilizada pelo ciente.
+
+![](figuras/status_conec.PNG)
 
 Quando o cliente solicitar uma mesa (chopeira), o responsável pelo estabelecimento vai ocupar a mesa utilizando o programa de acompanhamento realizado no QT.
 
