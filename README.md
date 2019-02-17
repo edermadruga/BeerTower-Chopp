@@ -125,11 +125,11 @@ Na Imagem abaixo, podemos ver um exemplo a ser implementada dessa interface fís
 
 A outra Interface é utilizando a interface WEB que pode ser acessada através de qualquer dispositivo que possua acesso a Internet (Própria do estabelecimento ou 3G). Esta Interface pode sder acessada através do link:
 
-https://beertower-chopp.herokuapp.com/
+https://beertowerchopp.herokuapp.com/
 
 ou através do QR CODE que estará disponível ao cliente na Chopeira.
 
-![](figuras/qr_code.PNG)
+![](figuras/qr_code2.PNG)
 
 (IMAGEM DA INTERFACE WEB)
 
