@@ -19,6 +19,38 @@ A Interface do proprietário do estabelecimento é composto de três abas confor
 
 ![](figuras/abas.PNG)
 
+Na figura, podemos destacar as abas mencionadas:
+
+- Aba Conexão: Responsável por estabelecer os dados de conexão com a placa controladora (NODE MCU 8266)
+- Aba Mesas: Aqui o proprietário poderá ocupar e desocupar as mesas, bem como informar a quantidade de chopeiras solicitadas. Esta informação será útil para disponibilizar ao usuário, via WEB, o valor consumido (referente a torres de chopp).
+- Aba Dados: Nesta aba, o proprietário poderá verificar a temperatura do chopp, se existe alguma solicitação, bem como um histórico.
+
+### Estabelecendo a conexão
+
+Estando na aba conexão, inicialmente, o status da conexão estará mostrando "Desconectado".
+
+![](figuras/status_desc.PNG)
+
+Para estabelecer uma comunicação com a placa controladora, é necessário escolher a porta de comunicação em que a placa foi conectada.
+
+![](figuras/abas.PNG)
+
+Depois devemos escolher a velocidade de comunicação, como podemos ver na figura abaixo.
+
+![](figuras/abas.PNG)
+
+Por padrão, a velocidade escolhida deverá ser de 115000.
+
+![](figuras/abas.PNG)
+
+Uma vez que os dados de conexão foram estabelecidos, devemos acionar o botão abrir.
+
+![](figuras/abas.PNG)
+
+Se tudo ocorrer como previsto, o Status da conexão mudará para "Conectado".
+
+![](figuras/abas.PNG)
+
 Primeiramente faz-se necessário setar as configurações de comunicação do software desenvolvido no QT através da aba comunicação.
 
 (PRECISO DE UMA IMAGEM DA ABA COMUNICAÇÃO)
