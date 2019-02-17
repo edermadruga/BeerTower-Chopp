@@ -80,4 +80,19 @@ O desenvolvimento lógico do protótipo BeerTower-Chopp contém três segmentos 
 
 - A Interface do Cliente: Página WEB que poderá ser acessada pelo usuário.
 
+## 3.1 Comunicação entre os Dispositivos - Protocolo
+
+![](figuras/conexaoeletronica.PNG)
+
+
+A comunicação entre os diversos componentes do projeto está baseada no protocolo Json.
+
+JSON (JavaScript Object Notation) é um formato leve de troca de dados. É fácil para programadores ler e escrever. É fácil para as máquinas analisar e identificar. JSON é um formato de texto completamente independente do idioma, mas utiliza convenções que são familiares aos programadores da família C de linguagens, incluindo C, C ++, C #, Java, JavaScript, Perl, Python e muitos outros. Essas propriedades tornam o JSON uma linguagem de intercâmbio de dados ideal.
+
+Nesse projeto, utilizamos a o JSON construído por pares nome / valor. Em vários idiomas, isso é realizado como um objeto, registro, estrutura, dicionário, tabela de hash, lista com chave ou matriz associativa.
+Faz sentido que um formato de dados que seja intercambiável com linguagens de programação também seja baseado nessas estruturas.
+
+No JSON, um objeto é um conjunto não ordenado de pares nome / valor. Um objeto começa com {  (chave esquerda) e termina com }  (chave direita) . Cada nome é seguido por :  e o nome / pares de valores estão separados por ,  (vírgula) .
+
+
 
