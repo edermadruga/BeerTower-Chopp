@@ -55,7 +55,25 @@ Se tudo ocorrer como previsto, o Status da conexão mudará para "Conectado".
 
 Uma vez que a conexão foi estabelecida com sucesso, devemos estabelecer a mesa que está sendo utilizada pelo ciente.
 
-![](figuras/status_conec.PNG)
+![](figuras/aba_mesas.PNG)
+
+Para tanto, selecionamos a mesa e acionamos "Ocupar". 
+
+![](figuras/selecao_mesa.PNG)
+
+Dessa forma, no campo indicado para a mesa aparecerá uma imagem indicando que a mesa foi ocupada. Na figura abaixo, podemos ver as mesas ocupadas.
+
+![](figuras/mesas_ocupadas.PNG)
+
+Para mudar o status da mesa para livre, é necessário acionar o botão desocupar.
+
+Na mesma aba é possível setar a quantidade de chopeiras que foi disponibilizado ao cliente. Para tanto, selecionamos a quantidade e acionamos o botão "Salvar".
+
+![](figuras/quantidade_valor_chopp.PNG)
+
+Esta informação será útil para disponibilizar ao cliente a informação do valor gasto, em termos de chopeiras.
+
+
 
 Quando o cliente solicitar uma mesa (chopeira), o responsável pelo estabelecimento vai ocupar a mesa utilizando o programa de acompanhamento realizado no QT.
 
