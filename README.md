@@ -69,28 +69,41 @@ Para mudar o status da mesa para livre, é necessário acionar o botão desocupa
 
 Na mesma aba é possível setar a quantidade de chopeiras que foi disponibilizado ao cliente. Para tanto, selecionamos a quantidade e acionamos o botão "Salvar".
 
-![](figuras/quantidade_valor_chopp.PNG)
+![](figuras/selecao_chopeira.PNG)
 
 Esta informação será útil para disponibilizar ao cliente a informação do valor gasto, em termos de chopeiras.
 
+### Verificando os dados da Mesa / Chopeira
+
+Agora, podemos acessar a Aba "Dados".
+
+![](figuras/aba_dados.PNG)
+
+A primeira informação, diz respeito ao valor gasto pelo cliente em termos de chopeiras, como podemos ver na figura abaixo.
+
+![](figuras/quantidade_valor_chopp.PNG)
+
+Essa informação só foi possível devido a informção sobre a quantidade de chopeiras na aba Mesas.
+
+Depois podemos verificar a temperatura do chopp na mesa do cliente.
+
+![](figuras/temperatura_chopp.PNG)
+
+Essa é uma importante informação, pois possibilita que o proprietário do estabelecimento se antecipe ao cliente e troque o refil que mantém a temperatura do chopp.
+
+Também é possível verificar se algum cliente solicitou atendimento, caso positivo aparecerá a mesa cujo atendimento foi solicitado. Essa solicitação, poderá ser feita através de um botão físico na chopeira ou via interface WEB.
+
+![](figuras/chamado_mesa.PNG)
+
+Uma vez que a solicitação foi enviada, um LED "Chamado" acenderá na chopeira e a indicação aparecerá no software do proprietário. Uma vez que o pedido foi atendido, o proprietário deverá selecinar a linha em que o atendimento foi solicitado. Essa linha então ficará azul.
+
+![](figuras/selecao_chamado.PNG)
+
+Ao pressionar o botão "Pedido Atendido", o solicitação será excluída e o LED "Chamado" da chopeira piscará por 5 vezes e então apagará. Uma nova solicitação poderá ser relaizada.
+
+Por fim, é possível acompanhar um histórico na mesma aba.
 
 
-Quando o cliente solicitar uma mesa (chopeira), o responsável pelo estabelecimento vai ocupar a mesa utilizando o programa de acompanhamento realizado no QT.
-
-(IMAGEM DE MESA VAZIA E MESA OCUPADA)
-
-No QT, o responsável pelo estabelecimento vai poder monitorar a temperatura da chopeira para que possa se antecipar ao cliente e manter o chopp sempre gelado
-
-(IMAGEM DE ACOMPANHAMENTO DE TEMPERATURA NO QT)
-
-Se o usuário solicitar a presença do garçom, o QT mostrará a solicitação. Esta solicitação pode ser realizada através do botão físico localizado na chopeira ou através do site de acompanhamento próprio para cada chopeira. Essa Indicação no QT pode ser observada na imagem abaixo.
-
-(IMAGEM DA SOLICITAÇÃO DO CLIENTE NO QT)
-
-Neste momento, um LED acenderá na chopeira indicando que o pedido foi efetuado.
-Quando a mensagem de solicitação for reconhecida pelo estabelecimento, outro LED deverá acender informando que a solicitação foi reconhecida pelo estabelecimento.
-
-Isto também poderá ser observado através do site próprio da chopeira.
 
 ## 2.2 Interface do Usuário (Botões físicos e Web)
 
