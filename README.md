@@ -131,19 +131,25 @@ ou através do QR CODE que estará disponível ao cliente na Chopeira.
 
 ![](figuras/qr_code2.PNG)
 
-(IMAGEM DA INTERFACE WEB)
+Ao acessar o link, o usuário será direcionado a Interface WEB
 
-Aqui o usuário terá acesso a temperatura do Chopp, no campo mostrado na figura abaixo. 
+![](figuras/interfaceWEB.PNG)
 
-(IMAGEM DO MONITORAMENTO DA TEMPERATURA)
+O primeiro Card da Interface WEB, é o campo onde o usuário poderá acompanhar a temperatura online e real de seu chopp.
 
-A interface também possui um botão para solicitação ao estabelecimento, que igualmente ao botão físico irá acender o LED de solicitação, e após o reconhecimento por parte do estabelecimento o LED de reconhecimento. Também na WEB é possível ver o Status da solicitação.
+![](figuras/web_temperatura.PNG)
 
-(IMAGEM BOTÃO + STATUS NA WEB)
+Depois teremos o Card referente a solicitação de atendimento.
 
-Também via Interface WEB é possível encerrar a conta do cliente.
+![](figuras/web_atendimento.PNG)
 
-(IMAGEM WEB ENCERRAR CONTA)
+Neste Card, o usuário poderá solicitar o atendimento através do botão "Chamar" ou poderá desistir do atendimento através do botão "Cancelar"
+
+Por fim, o último Card diz respeito ao valor Total em termos de chopp.
+
+![](figuras/web_valorgasto.PNG)
+
+Outras Informações sobre o estabelecimento poderão ser consultadas na Interface WEB.
 
 # 3 Do outro Lado do Protótipo
 
