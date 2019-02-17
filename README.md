@@ -94,6 +94,6 @@ Faz sentido que um formato de dados que seja intercambiável com linguagens de p
 
 No JSON, um objeto é um conjunto não ordenado de pares nome / valor. Um objeto começa com {  (chave esquerda) e termina com }  (chave direita) . Cada nome é seguido por :  e o nome / pares de valores estão separados por ,  (vírgula) .
 
-![](figuras/Jason.png)
+![](figuras/Json.png)
 
 
