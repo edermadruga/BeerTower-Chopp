@@ -119,7 +119,7 @@ A primeira, através da interface física localizada na própria chopeira que co
 
 Na Imagem abaixo, podemos ver um exemplo a ser implementada dessa interface física.
 
-![](figuras/interfacefisica.PNG)
+![](figuras/interfacefisica2.PNG)
 
 A outra Interface é utilizando a interface WEB que pode ser acessada através de qualquer dispositivo que possua acesso a Internet (Própria do estabelecimento ou 3G)
 
@@ -143,7 +143,7 @@ O desenvolvimento lógico do protótipo BeerTower-Chopp contém três segmentos 
 
 - O NodeMCU 8266: Que fará o controle dos dispositivos eletrônicos. Na figura abaixo podemos ver a conexão destes dispositivos utilizados no protótipo.
 
-![](figuras/conexaoeletronica.PNG)
+![](figuras/conexaoeletronica2.PNG)
 
 - A Interface do Estabelecimento: Desenvolvido através do QT Creator.
 
