@@ -9,7 +9,7 @@
 
 Este protótipo é um primeiro fruto de um projeto de um sistema de dosagem automática a ser implementado em torres de Chopp, onde o usuário através de um push button pode dosar a quantidade de chopp de sua preferência em seu copo. Além dessa função básica, será implementado outras funções como a solicitação de atendimento por parte do usuário. Para tanto utilizaremos como controlador o ESP8266, push button, LED, sensor de temperatura DS18B20 e uma válvula de controle de elaboração própria, contendo um servomotor acoplado a uma válvula manual através de um suporte.
 
-O estabelicimento terá acesso ao controle das chopeiras através de uma aplicação em QT em comunicação serial com o NODE MCU 8266. Já o cliente por sua vez, terá acesso a temperatura do Chopp, bem como a solicitação do garçom junto a mesa e o valor gasto através de uma página WEB que poderá ser acessada com qualquer dispositivo móvel com acesso a internet através de um QR Code.
+O estabelecimento terá acesso ao controle das chopeiras através de uma aplicação em QT em comunicação serial com o NODE MCU 8266. Já o cliente por sua vez, terá acesso a temperatura do Chopp, bem como a solicitação do garçom junto a mesa e o valor gasto através de uma página WEB que poderá ser acessada com qualquer dispositivo móvel com acesso a internet através de um QR Code.
 
 # 2 Manual do Usuário
 
@@ -39,7 +39,7 @@ Depois devemos escolher a velocidade de comunicação, como podemos ver na figur
 
 ![](figuras/escolha_velocidade.PNG)
 
-Por padrão, a velocidade escolhida deverá ser de 115000.
+Por padrão, a velocidade escolhida deverá ser de 115200.
 
 ![](figuras/velocidade_setada.PNG)
 
@@ -83,7 +83,7 @@ A primeira informação, diz respeito ao valor gasto pelo cliente em termos de c
 
 ![](figuras/quantidade_valor_chopp.PNG)
 
-Essa informação só foi possível devido a informção sobre a quantidade de chopeiras na aba Mesas.
+Essa informação só foi possível devido a informção sobre a quantidade de chopeiras na aba Mesas. Portanto, esse valor só será mostrado ou atualizado, mediante o botão salvar.
 
 Depois podemos verificar a temperatura do chopp na mesa do cliente.
 
@@ -102,7 +102,6 @@ Uma vez que a solicitação foi enviada, um LED "Chamado" acenderá na chopeira 
 Ao pressionar o botão "Pedido Atendido", o solicitação será excluída e o LED "Chamado" da chopeira piscará por 5 vezes e então apagará. Uma nova solicitação poderá ser relaizada.
 
 Por fim, é possível acompanhar um histórico na mesma aba.
-
 
 
 ## 2.2 Interface do Usuário (Botões físicos e Web)
@@ -125,7 +124,7 @@ Na Imagem abaixo, podemos ver um exemplo a ser implementada dessa interface fís
 
 A outra Interface é utilizando a interface WEB que pode ser acessada através de qualquer dispositivo que possua acesso a Internet (Própria do estabelecimento ou 3G). Esta Interface pode sder acessada através do link:
 
-https://beertowerchopp.herokuapp.com/
+http://beertowerchopp.herokuapp.com/
 
 ou através do QR CODE que estará disponível ao cliente na Chopeira.
 
@@ -182,5 +181,21 @@ Faz sentido que um formato de dados que seja intercambiável com linguagens de p
 No JSON, um objeto é um conjunto não ordenado de pares nome / valor. Um objeto começa com {  (chave esquerda) e termina com }  (chave direita) . Cada nome é seguido por :  e o nome / pares de valores estão separados por ,  (vírgula) .
 
 ![](figuras/Json.png)
+
+No Site, teremos sempre a atiualização da Temperatura e do Valor, conforme podemos comprovar na figura abaixo.
+
+![](figuras/comunic1.png)
+
+O Json é definido no app.py com os valores zerados e Change também vai ser inicialmente zero.
+
+![](figuras/comunic2.png)
+
+No app.py também é definido as rotas de download e upload
+
+![](figuras/comunic3.png)
+
+socketio.on vai mandar um json a partir de alguma alteração no estado dos buttons no site
+
+![](figuras/comunic4.png)
 
 
