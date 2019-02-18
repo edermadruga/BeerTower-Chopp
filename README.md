@@ -128,7 +128,7 @@ http://beertowerchopp.herokuapp.com/
 
 ou através do QR CODE que estará disponível ao cliente na Chopeira.
 
-![](figuras/qr_code2.PNG)
+![](figuras/qr_code3.PNG)
 
 Ao acessar o link, o usuário será direcionado a Interface WEB
 
